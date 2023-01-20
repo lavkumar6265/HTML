@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sing up or Login </title>
+    <style>
+        form.form-example {
+            display: table;
+        }
+        
+        div.form-example {
+            display: table-row;
+        }
+        
+        label,
+        input {
+            display: table-cell;
+            margin-bottom: 10px;
+        }
+        
+        label {
+            padding-right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Responsive Registration Form</h1>
+
+    <form>
+        <label for="email" > Email : </label>
+        <input type="text" name="email"><br>
+
+        <label for="password"> Password : </label>
+        <input type="password" name="password"> <br>
+
+        <label for="reInter"> Conform password : </label>
+        <input type="password" name="reInter" ><br>
+
+        <label for="name"> Name : </label>
+        <input type="text" name="name">
+
+        <label for="Last name"> Last Name : </label>
+        <input type="text" name="Last name"><br>
+
+        <div>
+            <label for="choose"> Male : </label>
+            <input type="radio" name="choose">
+            <label for="choose"> female : </label>
+            <input type="radio" name="choose">
+        </div>
+       
+        <select>
+            <option value=""> Select your country </option>
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">chaina</option>
+        </select><br>
+
+        <div>
+            <label for="check">I agree terms ans condition </label>
+            <input type="checkbox" name="check">
+            <label for="check">I want to receive the newsletter </label>
+            <input type="checkbox" name="check">
+        </div>
+    </form>
+</body>
+</html>
